@@ -4,6 +4,7 @@
 * value (sival_int) sent along with the signal by send_signal.
 * recv_signal.c
 *
+*
 * Compile: gcc -o recv_signal recv_signal.c
 * Run:     ./recv_signal      (it prints its pid, give that to send_signal)
 */

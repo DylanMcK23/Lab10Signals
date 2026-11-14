@@ -4,6 +4,7 @@
 * The pid of the receiver is given on the command line.
 * send_signal.c
 *
+*
 * Compile: gcc -o send_signal send_signal.c
 * Run:     ./send_signal <pid of recv_signal>
 */
