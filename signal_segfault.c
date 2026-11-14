@@ -27,7 +27,7 @@
 /**
  * @brief Signal handler for SIGSEGV - prints a message and returns
  */
-void handle_segfault() {
+void handle_segfault(int sig) {
     printf("Received a segmentation fault (SIGSEGV)\n");
 }
 

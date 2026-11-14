@@ -12,7 +12,7 @@
 /**
  * @brief Signal handler for SIGALRM - prints that the alarm went off
  */
-void handle_alarm() {
+void handle_alarm(int sig) {
     printf("Received SIGALRM - the 5 second alarm went off\n");
 }
 

@@ -29,7 +29,7 @@
 /**
  * @brief Signal handler for SIGINT - prints a message and returns
  */
-void handle_signal() {
+void handle_signal(int sig) {
     printf("Received a signal\n");
     // exit(1) was removed so the program keeps running
 }
